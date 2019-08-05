@@ -1,0 +1,4 @@
+Variour Principles Regarding Coding :
+
+
+1.) DNR - Do not Repeat principle states that the code should not be repeated again and again.

@@ -29,3 +29,13 @@ querySelector() takes the class or id tags. class is accessed by the .classid as
 For keypress i.e keyboard buttons - document.querySelector('.add__btn').addEventListener('keypress',function()});
 Giving parameter to a function in keypress gives us power to play with which key is pressed in keyboard.
 
+For inserting an html element from javascript we use the insertAdjacentHTML(). But for that we have to remove spaces from html command.
+string.replace() removes a string with the second parameter.
+    html = '<div class="item clearfix" id="expense-%id%"><div class="item__description">%description%</div><div class="right clearfix"><div class="item__value">%value%</div> <div class="item__percentage">21%</div><div class="item__delete"><button class="item__delete--btn"><i class="ion-ios-close-outline"></i></button></div></div></div>'
+    newHtml = newHtml.replace("%value%",obj.value);
+   document.querySelector(element).insertAdjacentHTML('beforeEnd',newHtml);
+
+documents.querySelectorAll() returns a list. So we have to convert it into array for more functions. 
+anyArray.slice(start,end) method takes input the array and returns the array from start to end -1. 
+
+Array instances or objects are inherited from Array.prototype . Array.prototype actually contains all the array functions.

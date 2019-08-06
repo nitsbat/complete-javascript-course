@@ -48,3 +48,7 @@ will continue till the <html>
 The element from which the event is triggered is called the target element.
 
 EVENT DELEGATION - The main html or section or body part can do any type of functionality when the EVENT BUBBLE happens. so its useful
+
+*****************************************************************************
+
+map function is similar to the foreach() . just it returns a brand new array.

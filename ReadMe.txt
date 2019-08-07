@@ -1,0 +1,1 @@
+A simple Javascript based webpage with modular functionalities.

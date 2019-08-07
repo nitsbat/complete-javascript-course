@@ -52,3 +52,11 @@ EVENT DELEGATION - The main html or section or body part can do any type of func
 *****************************************************************************
 
 map function is similar to the foreach() . just it returns a brand new array.
+
+************************************************************************************
+
+To make a object constructor, we use object.prototype.functionname =  function(){};
+
+****************************************************************************************
+For inserting a css style script to an element just use the .classlist.add or .classlist.toggle 
+e,g  document
